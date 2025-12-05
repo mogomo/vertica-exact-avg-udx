@@ -61,7 +61,7 @@ This ensures the output:
 
 ---
 
-## 3. Internal Approach (Simplified Explanation)
+## 3. Internal Approach 
 
 ### Intermediate state contains:
 
@@ -103,7 +103,7 @@ During termination:
 | **Makefile** | Builds `/tmp/exact_avg.so` |
 | **1_compile.sh** | Wrapper script invoking `make` |
 | **2_register_and_test.sql** | Registers UDX + small sample test |
-| **3_stress_test.sql** | Extreme dataset test (up to 100M rows) |
+| **3_stress_test.sql** | Extreme dataset test (up to 100M rows or nore) |
 
 ---
 
@@ -205,5 +205,5 @@ GROUP BY customer_id;
 - Performance suitable for large datasets  
 - Drop-in replacement for special high-precision needs  
 
-It is a safe, predictable, and helpful option for applications requiring **maximum numeric precision** in Vertica.
+It is a helpful option for applications requiring **maximum numeric precision** in Vertica.
 
