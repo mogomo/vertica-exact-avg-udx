@@ -4,10 +4,10 @@
 
 ## ⚠️ Disclaimer
 
-This software—including the `exact_avg` UDx implementation, supporting scripts, and documentation—is provided **“as is”**, without any warranties of any kind, whether express or implied.  
+This software - including the `exact_avg` UDx implementation, supporting scripts, and documentation - is provided **“as is”**, without any warranties of any kind, whether express or implied.  
 No guarantees are made regarding accuracy, reliability, performance, or suitability for any particular purpose.  
 
-Before using this code in production systems or mission-critical environments, you should:
+Before using this code in production systems or mission - critical environments, you should:
 
 - Validate correctness with your own datasets,  
 - Perform extensive testing under expected workload conditions, and  
